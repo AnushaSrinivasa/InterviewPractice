@@ -1,4 +1,5 @@
 A closure is simply a function inside another function that has access to the outer function variable. Now, this definition sound pretty much straightforward but the real magic is created with the scope. The inner function (closure) can access the variable defined in its scope (variables defined between its curly brackets), in the scope of its parent function, and the global variables. Now here you need to remember that the outer function can not have access to the inner function variable (we have already discussed this in scope concept). Let’s take an example and understand it in a better way.
+
 //not verified by me!
 ```
 let first = () => {
