@@ -1,0 +1,4 @@
+Scope means variable access. What variable do I have access to when a code is running? In javascript by default, you’re always in root scope i.e. the window scope. The scope is simply a box with a boundary for variables, functions, and objects. These boundaries put restrictions on variables and determine whether you have access to the variable or not. It limits the visibility or availability of a variable to the other parts of the code. You must have a clear understanding of this concept because it helps you to separates logic in your code and also improves the readability. A scope can be defined in two ways…
+
+* Local Scope allow access to everything within the boundaries (inside the box)
+* Global Scope is everything outside the boundaries (outside the box). A global scope can not access a variable defined in local scope because it is enclosed from the outer world, except if you return it.
