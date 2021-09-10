@@ -4,6 +4,7 @@ useContext is used to send the props to the nested child component skipping midd
 
 Create useContext:
 
+```
 import { createContext } from "react";
 import Profile from "./Profile.js";
 
@@ -17,3 +18,4 @@ const App = () => {
 		</UseContext.Provider>
 	)
 }
+```
