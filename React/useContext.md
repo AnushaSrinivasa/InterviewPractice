@@ -10,7 +10,7 @@ Create useContext:
 import { createContext } from "react";
 import Profile from "./Profile.js";
 
-export const useContext = useContext();
+export const useContext = createContext();
 
 const App = () => {
 	const user = "Anusha"
