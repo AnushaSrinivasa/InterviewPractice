@@ -69,4 +69,8 @@ export default axiosData() {
 	)
 }
 ```
+Using useFetch its not offical hook, just seperating the fetch:
 
+```
+write all the code inside useFetch and use any fetch methods axios/fetch, return data to calloing function;
+```
